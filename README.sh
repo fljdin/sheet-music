@@ -9,7 +9,7 @@ Sheet music written with lilypond by fljdin
 
 ## Browse
 
-$(for pdf in $PDF; do echo "[$pdf]($pdf)"; done)
+$(for pdf in $PDF; do echo -e "* [$pdf]($pdf)\n"; done)
 EOF
 
 exit 0
