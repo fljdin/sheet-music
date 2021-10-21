@@ -6,7 +6,7 @@ DIR=`dirname $^`
 SRC=$(shell find . -name "*.ly")
 OBJ=$(SRC:.ly=.pdf)
 
-all: $(OBJ)
+all: $(OBJ) readme
 clean:
 	rm -f $(OBJ)
 
