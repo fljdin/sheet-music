@@ -6,4 +6,6 @@ Sheet music written with lilypond by fljdin
 
 * [./drums/cherubini-solfege-rythmique-page-41.pdf](./drums/cherubini-solfege-rythmique-page-41.pdf)
 
+* [./pratices/clé-de-fa.pdf](./pratices/clé-de-fa.pdf)
+
 * [./pratices/clé-de-sol.pdf](./pratices/clé-de-sol.pdf)
