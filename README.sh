@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-PDF=$(find . -name "*.pdf")
+PDF=$(find . -name "*.pdf" | cut -c3-)
 
 cat <<EOF > README.md
 # sheet-music

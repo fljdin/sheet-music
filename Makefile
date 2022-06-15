@@ -1,17 +1,13 @@
 
-IN=`basename $^`
-OUT=`basename $@`
-DIR=`dirname $^`
-
 SRC=$(shell find . -name "*.ly")
 OBJ=$(SRC:.ly=.pdf)
 
 all: $(OBJ) readme
 clean:
-	rm -f $(OBJ)
+	rm $(OBJ)
 
 %.pdf: %.ly
-	lilypond -s --output=$(DIR) $^
+	lilypond -s --output=$(dir $^) $^
 
 readme:
 	@sh README.sh
