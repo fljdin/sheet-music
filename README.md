@@ -8,6 +8,8 @@ Sheet music written with lilypond by fljdin
 
 * [drums/nirvana-come-as-you-are.pdf](drums/nirvana-come-as-you-are.pdf)
 
+* [drums/adele-rolling-in-the-deep.pdf](drums/adele-rolling-in-the-deep.pdf)
+
 * [practices/clé-de-fa.pdf](practices/clé-de-fa.pdf)
 
 * [practices/clé-de-sol.pdf](practices/clé-de-sol.pdf)
